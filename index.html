@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap</title>
+  <!-- Import Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Import Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Protonn</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Uses cases
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Training</a></li>
+              <li><a class="dropdown-item" href="#">Fight</a></li>
+              <li><a class="dropdown-item" href="#">Yoga</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Call to Action -->
+  <div class="container call-to-action">
+    <div class="row">
+      <div class="action">
+        <h1>Everything you need to grow your business</h1>
+        <span>Protonn does everything you need to start and grow your business. Attract clients through engaging video content and simplify your business operations.</span>
+        <button class="btn-primary">Get Started With Protonn Today</button>
+      </div>
+      <div class="infos-container">
+        <ul>
+          <li>
+            <img src="assets/icons/card-icon.png" alt="Credit card">
+            No Credit Card needed.
+          </li>
+          <li>
+            <img src="assets/icons/rocket-icon.png" alt="Rocket">
+            Free 3-month trial.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Video -->
+  <div class="container">
+    <div class="row col-12">
+      <div class="d-flex flex-column align-items-center">
+        <video class="video" src="assets/videos/mundo.mp4" muted autoplay></video>
+        <h2>See Protonn in Action</h2>
+      </div>
+    </div>
+  </div>
+
+  <!-- New Clients -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-12 img-clients">
+        <img src="assets/img/tecnologia.jpg" alt="Tecnologia" />
+      </div>
+      <div class="col-lg-6 col-12">
+        <div class="new-clients">
+          <h3>Attract new clients through engaging video</h3>
+          <p>Use Protton's Magic Mode to create your own interective video in minutes. Edit with ease. Post it on social media in one click to attract new clients.</p>
+        </div>
+        <div class="suggestion">
+          <div class="border-left"></div>
+          <div class="comment">
+            <p>"Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt molit dolore cillum minim tempor enim."</p>
+            <div class="perfil">
+              <img src="assets/img/perfil.png" alt="Perfil picture" />
+              <div class="d-flex flex-column">
+                <p class="perfil-name">Wade Warren</p>
+                <p class="perfil-career">President of Sales</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Thak you -->
+  <div class="container pt-5">
+    <div class="row">
+      <div class="col-lg-6 col-12 text-center">
+        <img class="thank-img" src="assets/img/thank-you.jpg" alt="Thank you">
+      </div>
+      <div class="col-lg-6 col-12 pt-5">
+        <h3>Thank you for choosing Protonn premium</h3>
+        <p>Enter your e-mail id for the download link</p>
+        <div class="d-flex gap-3 pt-5">
+          <input type="text" placeholder="Enter your email id">
+          <button class="btn-primary">Send link</button>
+        </div>
+        <p class="pt-2">By clicking "Send link" you agree to our Terms of Service and Privacy Policy.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <h5>Protonn | &copy;2023</h5>
+  </footer>
+
+  <!-- Import Bootstrap Script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
